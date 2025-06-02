@@ -3,7 +3,6 @@ const menu = document.getElementById("menu");
 
 nav.classList.remove("open");
 
-
 menu.addEventListener("click", () => {
     nav.classList.toggle("open");
 });

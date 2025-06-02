@@ -190,73 +190,73 @@ header{
 
 @media screen and (min-width:680px) and (max-width:900px) {
 
-/* BACKGROUND BANNER */
+    /* BACKGROUND BANNER */
 
-.containerbanner{
-    background-image: url("../assets/images/Banner\ Corrida-Maluca\ \(Tablet\).png");
-}
-
-
-.titlePage{
-    font-size: 24px;
-}
-
-.navHeader{
-    /* border: 2px solid red; */
-    width: 55vw;
-}
-
-.menuHeader{
-    display: none;
-}
-
-.titleBanner{
-    /* border: 2px solid red; */
-    width: 70vw;
-    font-size: 32px;
-}
+    .containerbanner{
+        background-image: url("../assets/images/Banner\ Corrida-Maluca\ \(Tablet\).png");
+    }
 
 
-/* SOBRE O SITE */
+    .titlePage{
+        font-size: 24px;
+    }
 
-.containerAboutIt>h1{
-    font-size: 32px;
-}
+    .navHeader{
+        /* border: 2px solid red; */
+        width: 55vw;
+    }
 
-.articleAboutIt>p{
-    width: 70vw;
-    font-size: 16px;
-}
+    .menuHeader{
+        display: none;
+    }
 
-.articleAboutIt>img{
-    width: 250px;
-}
-
-/* DESTAQUES */
-
-.containerContrast>h1{
-    /* border: 2px solid purple; */
-    font-size: 32px;
-}
-
-.articleContrast{
-    /* border: 2px solid red; */
-    margin-top: 5vh;
-    flex-direction: column;
-}
-
-.articleContrast>img{
-    width: 280px;
-}
+    .titleBanner{
+        /* border: 2px solid red; */
+        width: 70vw;
+        font-size: 32px;
+    }
 
 
-/* FOOTER */
+    /* SOBRE O SITE */
 
-.containerFooter>p{
-    /* border: 2px solid blue; */
-    width: 89vw;
-    font-size: 14px;
-}
+    .containerAboutIt>h1{
+        font-size: 32px;
+    }
+
+    .articleAboutIt>p{
+        width: 70vw;
+        font-size: 16px;
+    }
+
+    .articleAboutIt>img{
+        width: 250px;
+    }
+
+    /* DESTAQUES */
+
+    .containerContrast>h1{
+        /* border: 2px solid purple; */
+        font-size: 32px;
+    }
+
+    .articleContrast{
+        /* border: 2px solid red; */
+        margin-top: 5vh;
+        flex-direction: column;
+    }
+
+    .articleContrast>img{
+        width: 280px;
+    }
+
+
+    /* FOOTER */
+
+    .containerFooter>p{
+        /* border: 2px solid blue; */
+        width: 89vw;
+        font-size: 14px;
+    }
 }
 
 
