@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+/* font-family: "Orbitron", sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Orbitron", sans-serif;
+    color: #d7d7d7;
+    background-color: #1C1C1C;
+}
+
+
+/* DESKTOP */
+
+
+.container-grid{
+    margin: auto;
+    width: 90vw;
+}
+
+/* BACKGROUND BANNER */
+
+.containerBanner{
+    background-image: url("../assets/images/Banner\ Corrida-Maluca\ \(Desktop\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 1) 20%);
+    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 1) 90%); */
+
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.849) 20%, rgba(0, 0, 0, 1) 20%);
+    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 55%, rgb(0, 0, 0, 1) 80%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* HEADER */
+
+header{
+    /* border: 2px solid blue; */
+    width: 100vw;
+    height: 8vh;
+    background-color: #000000b0;
+    position: fixed;
+    top: 0;
+
+}
+
+.containerHeader{
+    /* border: 2px solid red; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.titlePage{
+    font-size: 32px;
+    color: #d7d7d7;
+}
+
+.navHeader{
+    /* border: 2px solid red; */
+    width: 30vw;
+}
+
+.navHeader>ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.navHeader>ul>li>a{
+    text-decoration: none;
+    color:#d7d7d7;
+    font-weight: 700;
+}
+
+.navHeader>ul>li>a:hover{
+    color: #FF9900;
+}
+
+.menuHeader{
+    display: none;
+}
+
+/* BANNER */
+
+.titleBanner{
+    width: 65vw;
+    /* border: 2px solid red; */
+    font-size: 48px;
+    color: #d7d7d7;
+}
+
+
+/* SOBRE O SITE */
+.containerAboutIt{
+    /* border: 2px solid blue; */
+    height: 100vh;
+}
+
+.containerAboutIt>h1{
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 48px;
+}
+
+.articleAboutIt{
+    /* border: 2px solid red; */
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.articleAboutIt>p{
+    width: 50vw;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+/* DESTAQUES */
+
+.containerContrast{
+    height: 100vh;
+    background-color: #2c2c2c;
+}
+
+.containerContrast>h1{
+    /* border: 2px solid purple; */
+    padding-top: 5vh;
+    text-align: center;
+    font-size: 48px;
+}
+
+.articleContrast{
+    /* border: 2px solid red; */
+    height: 70vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.articleContrast>section{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.articleContrast>section>div{
+    /* border: 2px solid red; */
+    text-align: center;
+    line-height: 25px;
+}
+
+.articleContrast>section>div>span{
+    color: #FF9900;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* FOOTER */
+.containerFooter{
+    /* border: 2px solid red; */
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerFooter>p{
+    /* border: 2px solid blue; */
+    width: 60vw;
+    text-align: center;
+    line-height: 25px;
+}
+
+/* TABLET */
+
+@media screen and (min-width:680px) and (max-width:900px) {
+
+/* BACKGROUND BANNER */
+
+.containerbanner{
+    background-image: url("../assets/images/Banner\ Corrida-Maluca\ \(Tablet\).png");
+}
+
+
+.titlePage{
+    font-size: 24px;
+}
+
+.navHeader{
+    /* border: 2px solid red; */
+    width: 55vw;
+}
+
+.menuHeader{
+    display: none;
+}
+
+.titleBanner{
+    /* border: 2px solid red; */
+    width: 70vw;
+    font-size: 32px;
+}
+
+
+/* SOBRE O SITE */
+
+.containerAboutIt>h1{
+    font-size: 32px;
+}
+
+.articleAboutIt>p{
+    width: 70vw;
+    font-size: 16px;
+}
+
+.articleAboutIt>img{
+    width: 250px;
+}
+
+/* DESTAQUES */
+
+.containerContrast>h1{
+    /* border: 2px solid purple; */
+    font-size: 32px;
+}
+
+.articleContrast{
+    /* border: 2px solid red; */
+    margin-top: 5vh;
+    flex-direction: column;
+}
+
+.articleContrast>img{
+    width: 280px;
+}
+
+
+/* FOOTER */
+
+.containerFooter>p{
+    /* border: 2px solid blue; */
+    width: 89vw;
+    font-size: 14px;
+}
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 679px){
+
+    /* BACKGROUND BANNER */
+
+    .containerbanner{
+        background-image: url("../assets/images/Banner\ Corrida-Maluca\ \(Mobile\).png");
+    }
+
+    .titlePage{
+        font-size: 18px;
+    }
+
+    /* .containerHeader{
+        width: 25%;
+    } */
+
+    .navHeader{
+        width: 52vw;
+        position: fixed;
+        top: 8vh;
+        right: 0;
+
+        transform: translateX(100%);
+        transition: all 0.5s ease;
+        z-index: 999;
+    }
+
+    .navHeader.open{
+        transform: translateX(0);
+        display: block;
+    }
+
+    .navHeader>ul{
+        height: 25vh;
+        padding: 15px;
+        background-color: #000000b0;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .menuHeader{
+        display: block;
+    }
+
+    .menuHeader>img{
+        cursor: pointer;
+    }
+
+    .titleBanner{
+        /* border: 2px solid red; */
+        width: 90vw;
+        font-size: 20px;
+    }
+
+
+    /* SOBRE O SITE */
+    .containerAboutIt{
+        /* border: 2px solid blue; */
+        height: 100vh;
+    }
+
+    .containerAboutIt>h1{
+        font-size: 24px;
+    }
+
+    .articleAboutIt{
+        /* border: 2px solid red; */
+        height:80%;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10px;
+
+    }
+
+    .articleAboutIt>p{
+        width: 90vw;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .articleAboutIt>img{
+        width: 250px;
+    }
+
+    /* DESTAQUES */
+    .containerContrast{
+        /* border: 2px solid blue; */
+        height: 100vh;
+    }
+
+
+    .containerContrast>h1{
+        /* border: 2px solid purple; */
+        font-size: 24px;
+    }
+
+    .articleContrast{
+        /* border: 2px solid red; */
+        height: 85%;
+        margin-top: 5vh;
+        flex-direction: column;
+    }
+
+    .articleContrast>img{
+        width: 280px;
+    }
+
+    .articleContrast>section>div>p{
+        /* border: 2px solid red; */
+        font-size: 15px;
+    }
+
+    /* FOOTER */
+
+    .containerFooter{
+        /* border: 2px solid red; */
+        height: 15vh;
+    }
+
+    .containerFooter>p{
+        /* border: 2px solid blue; */
+        width: 90vw;
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
